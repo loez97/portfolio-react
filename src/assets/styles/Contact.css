@@ -1,0 +1,49 @@
+.contact {
+    max-width: 810px;
+    margin: 0 auto;
+  }
+  
+  .contact__title {
+    font-size: 22px;
+    text-transform: capitalize;
+  }
+  
+  .contact__details {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .contact__email-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .contact__email-icon {
+    width: 20px;
+  }
+  
+  .contact__email {
+    font-size: 14px;
+    color: var(--color-title);
+    transition: color 0.3s ease;
+  }
+  
+  .contact__social {
+    margin-top: 30px;
+  }
+  
+  .contact__social-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contact__social-icon {
+    width: 30px;
+    transition: transform 0.5s ease;
+  }
+  
+  .contact__social-icon:hover {
+    transform: scale(1.1);
+  }

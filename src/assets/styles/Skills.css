@@ -1,0 +1,25 @@
+.skills__title {
+    font-size: 16px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .skills__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .skills__item {
+    width: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills__item:hover {
+    transform: scale(1.1);
+  }

@@ -1,0 +1,57 @@
+/* Variáveis globais */
+:root {
+  --color-bg: #161513;
+  --color-bg-secondary: #1a1a1a;
+  --color-text: #ccc;
+  --color-title: #fff;
+  --color-accent: #00bcd4;
+  --color-hover: #1373D1;
+  --color-button: #fff;
+  --color-button-hover: #333;
+  --color-error: red;
+  --font-primary: "Poppins", sans-serif;
+}
+
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--font-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+hr {
+  margin: 80px auto;
+  max-width: 400px;
+}
+
+h3 {
+  font-size: 36px;
+  color: var(--color-title);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.main {
+  max-width: 810px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer {
+  background-color: #191919;
+  padding: 50px 0;
+}
