@@ -44,7 +44,11 @@ const Projects = () => {
               </div>
             ))}
         </div>
-        <button className="loadMoreBtn" onClick={loadMore}>Ver mais</button>
+        {data && visibleCount < data.length && (
+          <button className="loadMoreBtn" onClick={loadMore}>
+            Ver mais
+          </button>
+        )}
       </section>
     </div>
   );
