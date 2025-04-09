@@ -1,6 +1,6 @@
 /* Variáveis globais */
 :root {
-  --color-bg: #161513;
+  --color-bg: #111;
   --color-bg-secondary: #1a1a1a;
   --color-text: #ccc;
   --color-title: #fff;
@@ -8,7 +8,7 @@
   --color-hover: #1373D1;
   --color-button: #fff;
   --color-button-hover: #333;
-  --color-error: red;
+  --color-error: #f00;
   --font-primary: "Poppins", sans-serif;
 }
 
